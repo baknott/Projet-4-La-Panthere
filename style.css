@@ -753,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.418);
     padding: 40px 40px 40px 40px;
 }
 
@@ -822,7 +822,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.avif");
 }
 
 @media (max-width: 1024px) {
@@ -1039,4 +1039,25 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+/*MODIF AMELRIORATION GRAPHIQUE*/
+p{
+    font-size: 1em;
+}
+.boxwidth{
+    margin: auto;
+    width: 60%;
+}
+.boxwidth2{
+    margin: auto;
+    width: 75%;
+}
+.misenforme{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.textegras{
+    font-weight: bold;
 }
