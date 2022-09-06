@@ -1043,15 +1043,11 @@ h4 {
 
 /*MODIF AMELRIORATION GRAPHIQUE*/
 p{
-    font-size: 1em;
+    font-size: 1.2em;
 }
 .boxwidth{
     margin: auto;
     width: 60%;
-}
-.boxwidth2{
-    margin: auto;
-    width: 75%;
 }
 .misenforme{
     display: flex;
@@ -1060,4 +1056,7 @@ p{
 }
 .textegras{
     font-weight: bold;
+}
+.footercolor{
+    color: rgb(51, 51, 51)!important;
 }
